@@ -92,6 +92,7 @@ motorControllerGroup3);
  killoughDrive.setSafetyEnabled(true);
 killoughDrive.setExpiration(0.1);
 killoughDrive.setMaxOutput(1.0);
+killoughDrive.setDeadband(0.05);
 
 
 
